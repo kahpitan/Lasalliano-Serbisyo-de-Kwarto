@@ -1,0 +1,122 @@
+html {
+    background: url("01.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+  }
+
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 45;
+}
+
+body {
+    display: flex;
+    justify-content:center;
+    padding-left: 0%;
+    align-items: center;
+    min-height: 97vh;
+    
+}
+
+.wrapper{
+    width: 420px;
+    background: #88a788b4;
+    border-radius: 20px;
+    padding: 30px 40px;
+    line-height: 55%;
+
+}
+
+.wrapper h1{
+    font-size:30px;
+    text-align:center;
+    padding: 0px;
+    font-family:"league spartan";
+    color: #f8f8ee;
+}
+.wrapper h2{
+    font-size:20px;
+    text-align:center;
+    line-height: 200%;
+    font-family: "Montserrat";
+}
+
+.wrapper .input-box{
+width: 100%;
+height: 50px;
+background: #F8F8EE;
+margin: 30px 0;
+border-radius: 10px;
+padding: 1%;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-radius: 10px;
+    border:1px solid rgb(83, 83, 83)
+}
+
+.input-box input::placeholder {
+    color:rgb(0, 0, 0);
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #ffffff;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width:50%;
+    align-items:center;
+    text-align:center;
+    height: 45px;
+    background: #000000;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight:600;
+    
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrapper .register-link p a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
